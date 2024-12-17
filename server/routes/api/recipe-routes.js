@@ -31,7 +31,15 @@ router.get('/', (req, res) => {
 // Get Recipe by ID
 
 // Add new Recipe
+router.post('/', (req, res) => {
+    Recipe.create({
+
+    })
+});
 
 // Update Recipe
 
 // Delete Recipe
+
+
+module.exports = router;
