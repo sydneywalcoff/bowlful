@@ -5,9 +5,12 @@
   "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js",
-    "start:dev": ""
+    "start": "cd server && npm start",
+    "start:dev": "concurrently \"npm start\" && \"cd client && npm run dev\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
 }
