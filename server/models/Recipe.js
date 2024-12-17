@@ -29,7 +29,7 @@ Recipe.init(
             type: DataTypes.STRING,
             allowNull: true
         },
-        haveTried: {
+        have_tried: {
             type: DataTypes.BOOLEAN,
             allowNull: true,
         },
