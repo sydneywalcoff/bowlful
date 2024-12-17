@@ -34,8 +34,8 @@ router.get('/', (req, res) => {
 // Add new Recipe
 router.post('/', (req, res) => {
     // convert ingredients list to JSON
-    let ingredientsJSON = json(req.body.ingredients);
-    console.log(ingredientsJSON);
+    let ingredientsJSON = req.body;
+    console.log('POST', ingredientsJSON);
     // Recipe.create({
     //     name: req.body.name,
     //     ingredients: ingredientsJSON,
