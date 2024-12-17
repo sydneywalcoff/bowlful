@@ -25,10 +25,6 @@ Recipe.init(
             type: DataTypes.STRING,
             allowNull: false
         },
-        favorite: {
-            type: DataTypes.BOOLEAN,
-            allowNull: true,
-        },
         url: {
             type: DataTypes.STRING,
             allowNull: true
