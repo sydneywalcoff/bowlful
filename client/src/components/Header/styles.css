@@ -1,0 +1,6 @@
+button.btn {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--text-color);
+    font-weight: 500;
+}
